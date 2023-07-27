@@ -4,7 +4,7 @@
 - 🚀 I’m currently creating small projects
   
 
-- 📚 I’m currently learning Machine Learning
+- 📚 I’m currently studying Machine Learning
   
 
 - ⚡ Fun fact: I like to play Overwatch 2 and Chess
