@@ -1,13 +1,13 @@
-### <div align="center">Hello 👋, I'm Hugo Moraes, a Computer Science Student 👨‍💻</div>  
+### <div align="center">Hello 👋, I'm Hugo Moraes, a Computer Science Student @ UFAM 👨‍💻</div>  
   
 
-- 🚀 I’m currently creating small projects
+- 🚀 I’m currently working on a Machine Learning Project at UFAM
   
 
 - 📚 I’m currently studying Machine Learning
   
 
-- ⚡ Fun fact: I like to play Overwatch 2 and Chess
+- ⚡ Fun fact: I like to play PC games
 
 ## Skills  
 
