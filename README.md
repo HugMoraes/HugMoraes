@@ -4,10 +4,10 @@
 - 🚀 I’m currently working on a Machine Learning Project at UFAM  
   
 
-- 📚 I’m currently studying Machine Learning  
+- 📚 I’m currently studying Software Development
   
 
-- ⚡ Fun fact: I like to play PC games  
+- ⚡ Fun fact: I like to play PC games, chess and Tetri.io 
   
 
 <br/>  
