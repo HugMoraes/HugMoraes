@@ -2,7 +2,7 @@
 
 <br/>
 
-- 🚀 I’m currently working with Embedded Systems Perfomance as a intern at [Instituto de Pesquisas Eldorado](https://www.eldorado.org.br/)
+- 🚀 I’m currently working with Embedded Systems Perfomance as an intern at [Instituto de Pesquisas Eldorado](https://www.eldorado.org.br/)
   
 
 - 📚 I’m currently studying Android and web development
