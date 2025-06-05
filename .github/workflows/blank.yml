@@ -1,0 +1,46 @@
+name: update-readme
+
+on:
+  schedule:
+  - cron: "0 * * * *"
+
+  workflow_dispatch: # To allow manual test
+
+jobs:
+  updateTetrio:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # Allow to change the repo
+
+    steps:
+      - name: Repo checkout
+        uses: actions/checkout@v4
+    
+      - name: 📩 Get region rank position
+        run: |
+          API_URL="https://ch.tetr.io/api/users/kronusdelta/summaries/league"
+          STANDING_LOCAL_VALUE=$(curl -s "$API_URL" | jq -r '.data.standing_local')
+
+          if [ -z "$STANDING_LOCAL_VALUE" ] || [ "$STANDING_LOCAL_VALUE" == "null" ]; then
+            echo "Error extracting 'standing_local' from the API or null value. URL: $API_URL"
+            exit 1
+            
+          else
+            echo "Standing Local extracted: $STANDING_LOCAL_VALUE"
+            
+            sed -E -i "s/(TOP#)([0-9]+)/\1$STANDING_LOCAL_VALUE/" README.md
+          fi
+
+      - name: ✏️ Commit changes
+        run: |
+          git config --local user.email "hugomoraes013579@gmail.com"
+          git config --local user.name "GitHub Action"
+
+          if ! git diff --quiet README.md; then
+            git add README.md
+            git commit -m "Update TETR.IO stats"
+            echo "Changes to README.md commited"
+            git push
+          else
+            echo "Nothing to commit, same rank $STANDING_LOCAL_VALUE"
+          fi
