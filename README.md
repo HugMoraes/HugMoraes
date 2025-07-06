@@ -8,7 +8,7 @@
 - 📚 I’m currently studying Android and web development
   
 
-- ⚡ Fun fact: I like to play PC games, chess and [tetr.io](https://ch.tetr.io/u/kronusdelta) (TOP#33 Brazil) 
+- ⚡ Fun fact: I like to play PC games, chess and [tetr.io](https://ch.tetr.io/u/kronusdelta) (TOP#34 Brazil) 
 
 <br/>  
 
