@@ -8,7 +8,7 @@
 - 📚 I’m currently studying Android and web development
   
 
-- ⚡ Fun fact: I'm a redstone engineer and i like to play PC games and [tetr.io](https://ch.tetr.io/u/kronusdelta) (TOP#44 Brazil) 
+- ⚡ Fun fact: I'm a redstone engineer and i like to play PC games and [tetr.io](https://ch.tetr.io/u/kronusdelta) (TOP#42 Brazil) 
 
 <br/>  
 
